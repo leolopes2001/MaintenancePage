@@ -1,0 +1,74 @@
+body {
+  background: linear-gradient(
+      15.4deg,
+      rgba(0, 0, 0, 0.2) 13.04%,
+      rgba(0, 0, 0, 0) 44.24%
+    ),
+    #ffffff;
+}
+
+.img_logo {
+  top: 0px;
+  left: -22px;
+}
+
+.oops_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+
+  color: #000000;
+}
+
+.maintenance_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 34px;
+  color: #000000;
+}
+
+.explanation_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  max-width: 500px;
+}
+
+.btn-primary {
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  line-height: 20px !important;
+  border: none !important;
+  padding: 0px;
+  width: 128px;
+  height: 37px;
+  background: #149a02;
+  border-radius: 4px;
+  transition: all 300ms !important;
+}
+
+.btn-primary:is(:hover, :active, :focus) {
+    opacity: 0.8 !important;
+    background: #149a02 !important;
+}
+
+.content_section{
+    padding-top: 100px;
+    min-height: 500px;
+}
+
+@media (min-width: 992px){
+    .content_section{
+        padding-top: 0;
+        min-height: 100vh;
+    }
+}
